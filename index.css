@@ -84,3 +84,18 @@ footer {
   text-align: center;
   padding: 20px;
 }
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .navbar a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .caption h1 {
+    font-size: 24px;
+  }
+
+  .content {
+    padding: 60px 20px;
+  }
+}
