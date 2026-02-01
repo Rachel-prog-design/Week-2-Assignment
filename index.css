@@ -6,6 +6,9 @@ body {
 .home-bg {
   background-image: url("home.jpg");
 }
+p {
+    align-content: center;
+}
 /* NAVBAR */
 .navbar {
   position: fixed;
