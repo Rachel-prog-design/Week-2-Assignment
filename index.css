@@ -69,6 +69,47 @@ p {
 .content h2 {
   margin-bottom: 20px;
 }
+.profile-section {
+    max-width: 1000px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Name at the top */
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Image + text side by side */
+.profile-content {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+/* Image styling */
+.profile-image img {
+    width: 500px;
+    height: 700px;
+    border-radius: 6px;
+}
+
+/* Text styling */
+.profile-text {
+    flex: 1;
+}
+
+.profile-text p {
+    margin: 0;
+    line-height: 1.7;
+    color: #666;
+}
+
 
 form {
     width: 300px;
